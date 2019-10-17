@@ -1,0 +1,291 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-resume-openfont}
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\namesection{Eshan}{Indoliya}{ \urlstyle{same}\url{Btech,  Dept. of Electrical Engineering}{\linebreak Indian Institute of Technology, Ropar} \\
+\href{mailto:2015eeb1051@iitrpr.ac.in}{2015eeb1051@iitrpr.ac.in} | +91-8769638468
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+
+ Data Structures, Digital Electronics, Communication Systems,  Control Systems, Digital Signal Processing, Digital Image Processing, Digital IC Design, Wireless Communication Systems, Probability Theory and Stochastic Processes
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Languages}
+%\location{}
+C \textbullet{} C++ \textbullet{} SQL \textbullet{} Java  \textbullet{} Arduino Programming \textbullet{} Matlab Programming \textbullet{} Python 
+\subsection{Softwares}
+%\location{}
+SolidWorks \textbullet{} Cadence \textbullet{} PSpice \textbullet{} Multisim \textbullet{} AutoCAD \textbullet{}  Photoshop \textbullet{} Illustrator \textbullet{} Premiere Pro \textbullet{} After Effects 
+
+\section{Education} 
+
+\subsection{IIT Ropar}
+\descript{B.Tech Electrical Engineering}
+\location{May 2019 \\ Cum. GPA: 6.17}
+\sectionsep
+\subsection{St. Xavier's School, Jaipur}
+\descript{CBSE Board | 2015}
+\location{12th Grade Overall Score 84.56\%}
+\sectionsep
+\subsection{St. Xavier's School, Jaipur}
+\descript{CBSE Board | 2013}
+\location{10th Grade Cum. GPA: 8.0}
+
+
+\section{Personal Strengths}
+\vspace{\topsep} %vertical space fix
+\begin{tightemize}
+\item Graphic designing, Leadership Skills, Team Work Skills, Organizational Skills, Public Speaking, Quick learner 
+\end{tightemize}
+
+
+\section{Hobbies}
+\vspace{\topsep} %vertical space fix
+\begin{tightemize}
+\item Competitive gaming, Puzzle solving (Rubik’s cube, Sudoku), Photography, Fitness 
+\end{tightemize}
+
+
+\section{EXTRA CURRICULAR}
+\vspace{\topsep} %vertical space fix
+\begin{tightemize}
+\item Winning team leader at Battleground X during Quintessence 2017.
+\item Worked as a designer for the Cultural fest and technical fest in my college.
+\end{tightemize}
+\sectionsep
+%\location{Familiar:}
+%AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
+%\sectionsep
+
+% \section{ACHIEVEMENTS} 
+% \textbullet{} Secured under 5000 rank out of 1.3 million candidates appearing for JEE 2015 Examination( under 0.04\% of total candidates). \\
+% \textbullet{} Monochrome club representative for the AY-20161-17. \\
+% \textbullet{} Core team member for the technical fest Advitiya 2018. \\
+% \sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.62\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Internships}
+\runsubsection{Hardware Development Intern}
+%\descript{| Design Internship}
+\location{| May-Jul 2018, ID Tech Solutions Pvt. Ltd., Gurugram}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Developed indoor asset tracking system using beacons and ble-wifi gateways. Started from scratch to a working prototype. Code was written on python.
+And a low cost attendace logging system developed using HF rfid cards on arduino-nano and other modules.
+\end{tightemize}
+
+\runsubsection{Graphic Designer}
+%\descript{| Design Internship}
+\location{| May-Jul 2017, CDCRC, IIT Ropar}
+\begin{tightemize}
+\item Designed the placement brochure for IIT Ropar and structured its framework for AY 2017-18. Final brochure was handed out to the companies visiting the campus for placement recruitment. 
+\end{tightemize}
+
+\section{Academic Projects}
+
+\runsubsection{Design and Analysis of PLL (BTP)}
+%\descript{| Project }
+\location{| Feb 2019}
+\location{Guided by Dr. Mahendra Sakare}
+\begin{tightemize}
+\item  Designed and simulated Digital Phase Locked Loop in cadance, for 180 nm architecture. Phase-locked loops are widely employed in radio, telecommunications, computers and other electronic applications.
+\end{tightemize}
+
+\runsubsection{Protection Circuit against dpa attacks}
+%\descript{| Project }
+\location{| Apr 2018}
+\location{Guided by Dr. Rohit Sharma}
+\begin{tightemize}
+\item  Simulated a circuit on Cadence that protects smart cards against differential power analysis attacks
+\end{tightemize}
+
+%\runsubsection{Image classification using CNN}
+%\descript{| Project }
+%\location{| Feb-Mar 2018}
+%\location{Guided by Dr. Subrahmanyam Murala}
+%\begin{tightemize}
+%\item Idea is to automate the process of image classification of plant leaves and its diseases by using AlexNet CNN architecture and transfer learning in Matlab.
+%\end{tightemize}
+
+\runsubsection{DTMF controlled home devices}
+%\descript{| Project}
+\location{| Oct-Nov 2017}
+\location{Guided by Dr. Suman Kumar}
+\begin{tightemize}
+\item Designed and made a prototype to remotely control home devices using DTMF Signaling.
+\end{tightemize}
+
+\runsubsection{Portable FM transmitter}
+%\descript{| Project }
+\location{| Aug-Nov 2016}
+\location{Guided by Dr. Rohit Sharma}
+\begin{tightemize}
+\item The aim of the project was to design a economical wireless solution for the automobiles/devices with no wireless audio support.
+% \item Created a backbone.js-like framework for the Captions editor.
+% \item All code was reviewed, perfected, and pushed to production.
+\end{tightemize}
+
+%\runsubsection{Propeller LED Display}
+%\descript{| Project}
+%\location{| Oct–Nov 2016}
+%\location{Guided by Dr. Prabir Sarkar}
+%\begin{tightemize}
+%\item Designed and made a prototype of circular LED display using Atmega-8 micro-controller.
+%\end{tightemize}
+
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %     RESEARCH
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{POR}
+\runsubsection{Core Team member and Creativity Lead}
+\descript{| Advitiya 2018}
+\location{Jan – Mar 2018}
+Worked with fellow team members for organizing the technical fest of IIT Ropar. As a creative lead I was responsible for all of the social media posts and printable adverts, website and mobile app UI design, along with solving problems with unique solutions.  
+
+\runsubsection{Monochrome club representative}
+\descript{| IIT Ropar}
+\location{AY 2016-17}
+As a club representative my tasks were to organize regular designing tutorials and competitions, along with providing other clubs at the college with design resources.   
+
+
+% \runsubsection{Cornell Phonetics Lab}
+% \descript{| Head Undergraduate Researcher}
+% \location{Mar 2012 – May 2013 | Ithaca, NY}
+% Lead the development of \textbf{QuickTongue}, the first ever breakthrough tongue-controlled game with \textbf{\href{http://conf.ling.cornell.edu/~tilsen/}{Prof Sam Tilsen}} to aid in Linguistics research. Publication submitted.
+% \sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%\section{EXTRA CURRICULAR}
+%\vspace{\topsep} %vertical space fix
+%\begin{tightemize}
+%\item Core team member and Creativity head for the technical fest, Advitiya 2018.
+%\item Winning team leader at Battleground X during Quintessence 2017.
+%\item Monochrome club representative for the AY-2016-17.
+%\item Worked as a designer for the Cultural fest and technical fest in my college.
+%\end{tightemize}
+%\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SOCIETIES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Societies} 
+
+% \begin{tabular}{rll}
+% 2014 	& top 12\%ile    & Tau Beta Pi Engineering Honor Society\\
+% 2014   & National   & The Global Leadership and Education Forum (tGELF)\\
+% 2012   &  National  & Golden Key International Honor Society\\
+% 2012   &  National   & National Society of Collegiate Scholars\\
+% \end{tabular}
+\sectionsep
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
